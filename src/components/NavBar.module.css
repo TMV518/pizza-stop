@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@500&display=swap");
+
+.main-container {
+  background-color: maroon;
+  margin-bottom: 20px;
+}
+.main-container ul {
+  margin: 0;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-family: "Noto Sans Display", sans-serif;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+}
+
+.main-container button {
+  font-family: "Noto Sans Display", sans-serif;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.main-container > ul > li > span {
+  font-size: small;
+}
+
+.cartAmt {
+  display: inline-block;
+  color: maroon;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+/*When a screen has a max width of 500px, do this*/
+@media only screen and (max-width: 500px) {
+  .right-section {
+    flex-direction: column;
+    column-gap: 0px;
+    row-gap: 10px;
+  }
+}

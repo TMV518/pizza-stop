@@ -1,0 +1,124 @@
+.item {
+  font-size: large;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+}
+
+.item:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  background-image: url("../assets/down_arrow.png");
+  background-size: contain;
+  background-color: transparent;
+  width: 48px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown:hover {
+  opacity: 75%;
+}
+
+.description {
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 200px;
+}
+
+.item img {
+  max-width: 100px;
+}
+
+hr {
+  height: 1px;
+  background-color: rgb(178, 178, 178);
+  border: none;
+}
+
+.options {
+  display: inline;
+  padding: 0;
+}
+
+.item-details {
+  padding: 10px 30px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.item-extras {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-extras ul {
+  list-style-type: none;
+}
+
+/*controls*/
+.controls {
+  display: flex;
+  column-gap: 20px;
+  min-width: 50px;
+  align-items: center;
+}
+
+/*Plus and minus buttons*/
+.plus-minus {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.plus-minus button {
+  border: 1px solid grey;
+  background: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+}
+
+.plus-minus button:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+#minus {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#plus {
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/*When a screen has a max width of 500px, do this*/
+@media only screen and (max-width: 500px) {
+  .item {
+    padding: 10px 10px;
+  }
+
+  .item img {
+    max-width: 60px;
+  }
+  .description {
+    margin-left: 10px;
+    column-gap: 30px;
+  }
+
+  .dropdown {
+    width: 24px;
+    height: 15px;
+  }
+}

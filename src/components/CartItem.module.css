@@ -1,0 +1,101 @@
+.main-container {
+  padding: 5px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  border: none;
+  border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.x-button {
+  background-image: url("../assets/x-mark-3-64.png");
+  background-size: contain;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border: none;
+}
+
+.x-button:hover {
+  opacity: 75%;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.details img {
+  max-width: 100px;
+}
+
+.details span {
+  display: inline-block;
+  max-width: 100px;
+}
+
+/*plus and minus buttons*/
+.plus-minus {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.plus-minus button {
+  border: 1px solid grey;
+  background: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+}
+
+.plus-minus button:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+#minus {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#plus {
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .details img {
+    max-width: 60px;
+  }
+
+  .plus-minus {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 5px;
+    padding: 0;
+  }
+
+  #minus {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  #plus {
+    border-bottom: none;
+    border-left: 1px solid gray;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+  }
+}

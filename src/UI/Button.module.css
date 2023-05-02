@@ -1,0 +1,21 @@
+.btn {
+  cursor: pointer;
+  color: white;
+  background-color: maroon;
+  border: 1px solid maroon;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+
+.btn:disabled {
+  background-color: #000000;
+  border-color: #000000;
+  opacity: 50%;
+  cursor: not-allowed;
+}

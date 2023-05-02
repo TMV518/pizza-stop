@@ -1,0 +1,15 @@
+.controls {
+  column-gap: 10px;
+}
+
+.content input {
+  width: 450px;
+  border-radius: 2px;
+  border: 1px solid rgb(154, 154, 154);
+  height: 20px;
+  font-size: 15px;
+}
+
+td {
+  padding: 5px 10px;
+}
