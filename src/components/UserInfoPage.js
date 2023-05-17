@@ -35,6 +35,7 @@ const UserInfoPage = (props) => {
   //refreshes page
   useEffect(() => {
     if (orderCompleted) {
+      window.scrollTo(0, 0);
       console.log("ORDER COMPLETE");
       setTimeout(() => {
         window.location.reload();
