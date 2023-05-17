@@ -15,9 +15,9 @@ const NavBar = (props) => {
           PIZZA STOP<span>Pizza when you want!</span>
         </li>
         <div className={classes["right-section"]}>
-          <li>
+          {/*<li>
             <Button className={classes["about-btn"]}>About</Button>
-          </li>
+  </li>*/}
           <li>
             <Button
               className={classes["cart-btn"]}

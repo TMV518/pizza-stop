@@ -6,10 +6,4 @@ export const NavContext = createContext({
   cartItems: [],
   orderTotal: 0,
   cartText: "Cart is empty",
-
-  //setting the cart page
-  //cartPage: false,
-  //cartBtnText: "Cart",
-  //setCartBtnText: () => {},
-  //setCartPage: () => {},
 });
