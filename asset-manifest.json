@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pizza-stop/static/css/main.6ea0bb82.css",
-    "main.js": "/pizza-stop/static/js/main.6383604c.js",
+    "main.js": "/pizza-stop/static/js/main.5058c942.js",
     "static/media/down_arrow.png": "/pizza-stop/static/media/down_arrow.50c762cd504e59d175f0.png",
     "index.html": "/pizza-stop/index.html",
     "main.6ea0bb82.css.map": "/pizza-stop/static/css/main.6ea0bb82.css.map",
-    "main.6383604c.js.map": "/pizza-stop/static/js/main.6383604c.js.map"
+    "main.5058c942.js.map": "/pizza-stop/static/js/main.5058c942.js.map"
   },
   "entrypoints": [
     "static/css/main.6ea0bb82.css",
-    "static/js/main.6383604c.js"
+    "static/js/main.5058c942.js"
   ]
 }
